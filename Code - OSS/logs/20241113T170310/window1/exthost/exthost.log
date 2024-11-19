@@ -1,0 +1,48 @@
+2024-11-13 17:03:12.539 [info] Extension host with pid 31346 started
+2024-11-13 17:03:12.662 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-13 17:03:12.671 [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+2024-11-13 17:03:12.928 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-13 17:03:13.073 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-13 17:03:13.193 [info] Eager extensions activated
+2024-11-13 17:03:13.214 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:13.218 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:13.242 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:13.248 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:13.266 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:13.283 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:28.684 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-13 17:03:28.695 [info] Extension host with pid 31346 exiting with code 0
+2024-11-13 17:03:30.531 [info] Extension host with pid 31454 started
+2024-11-13 17:03:30.531 [info] Skipping acquiring lock for /home/hentai/.config/Code - OSS/User/workspaceStorage/a2155b32700b6a0b3129c352b1eecdfd.
+2024-11-13 17:03:30.613 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-13 17:03:30.625 [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+2024-11-13 17:03:30.889 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-13 17:03:31.015 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-13 17:03:31.114 [info] Eager extensions activated
+2024-11-13 17:03:31.167 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:31.171 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:31.211 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:31.223 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:31.258 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:31.285 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:03:31.568 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-11-13 17:03:31.700 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-13 17:15:27.775 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-13 17:15:27.801 [info] Extension host with pid 31454 exiting with code 0
+2024-11-13 17:15:29.484 [info] Extension host with pid 33318 started
+2024-11-13 17:15:29.484 [info] Skipping acquiring lock for /home/hentai/.config/Code - OSS/User/workspaceStorage/a62b567d777b73061eb38b0b753c34f3.
+2024-11-13 17:15:29.634 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-13 17:15:29.644 [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+2024-11-13 17:15:29.876 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-13 17:15:29.991 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-13 17:15:30.091 [info] Eager extensions activated
+2024-11-13 17:15:30.130 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:15:30.133 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:15:30.159 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:15:30.167 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:15:30.190 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:15:30.209 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 17:15:32.289 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-11-13 17:15:32.413 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-13 17:32:52.436 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-13 17:32:52.454 [info] Extension host with pid 33318 exiting with code 0

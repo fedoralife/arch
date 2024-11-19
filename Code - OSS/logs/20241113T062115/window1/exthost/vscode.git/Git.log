@@ -1,0 +1,29 @@
+2024-11-13 06:21:19.245 [info] [main] Log level: Info
+2024-11-13 06:21:19.245 [info] [main] Validating found git in: "git"
+2024-11-13 06:21:19.245 [info] [main] Using git "2.47.0" from "git"
+2024-11-13 06:21:19.245 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-13 06:21:19.245 [info] > git rev-parse --show-toplevel [32ms]
+2024-11-13 06:21:19.245 [info] > git rev-parse --git-dir --git-common-dir [22ms]
+2024-11-13 06:21:19.245 [info] [Model][openRepository] Opened repository: /home/hentai/DEV/Cpp-Project-Setup
+2024-11-13 06:21:19.245 [info] > git rev-parse --show-toplevel [27ms]
+2024-11-13 06:21:19.245 [info] > git config --get commit.template [35ms]
+2024-11-13 06:21:19.283 [info] > git rev-parse --show-toplevel [32ms]
+2024-11-13 06:21:19.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-11-13 06:21:19.307 [info] > git rev-parse --show-toplevel [17ms]
+2024-11-13 06:21:19.352 [info] > git status -z -uall [15ms]
+2024-11-13 06:21:19.353 [info] > git rev-parse --show-toplevel [31ms]
+2024-11-13 06:21:19.353 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-13 06:21:19.365 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-11-13 06:21:19.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-11-13 06:21:19.403 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-13 06:21:19.408 [info] > git config --get commit.template [19ms]
+2024-11-13 06:21:19.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [47ms]
+2024-11-13 06:21:19.481 [info] > git merge-base refs/heads/main refs/remotes/origin/main [18ms]
+2024-11-13 06:21:19.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2024-11-13 06:21:19.490 [info] > git diff --name-status -z --diff-filter=ADMR ded9c0b90fba7995575f5cd628ecc4546dbfacc3...refs/remotes/origin/main [4ms]
+2024-11-13 06:21:19.511 [info] > git status -z -uall [14ms]
+2024-11-13 06:21:19.511 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-13 06:21:19.535 [info] > git show --textconv :script/script.sh [7ms]
+2024-11-13 06:21:19.537 [info] > git ls-files --stage -- /home/hentai/DEV/Cpp-Project-Setup/script/script.sh [3ms]
+2024-11-13 06:21:19.544 [info] > git cat-file -s e35ff92d578af33d6bdee12af697d3be7c0fdff4 [2ms]
+2024-11-13 06:21:19.768 [info] > git check-ignore -v -z --stdin [1ms]

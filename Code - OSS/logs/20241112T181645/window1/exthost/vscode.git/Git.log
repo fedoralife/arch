@@ -1,0 +1,41 @@
+2024-11-12 18:16:48.690 [info] [main] Log level: Info
+2024-11-12 18:16:48.690 [info] [main] Validating found git in: "git"
+2024-11-12 18:16:48.690 [info] [main] Using git "2.47.0" from "git"
+2024-11-12 18:16:48.690 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-12 18:16:48.690 [info] > git rev-parse --show-toplevel [30ms]
+2024-11-12 18:16:48.690 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-11-12 18:16:48.690 [info] [Model][openRepository] Opened repository: /home/hentai/DEV/Cpp-Project-Setup/bin/project
+2024-11-12 18:16:48.706 [info] > git config --get commit.template [9ms]
+2024-11-12 18:16:48.709 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-12 18:16:48.717 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-12 18:16:48.724 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 18:16:48.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-11-12 18:16:48.741 [info] > git status -z -uall [11ms]
+2024-11-12 18:16:48.743 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 18:16:48.744 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-11-12 18:16:48.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-11-12 18:16:48.773 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-11-12 18:16:48.773 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-12 18:16:48.779 [info] > git config --get commit.template [15ms]
+2024-11-12 18:16:48.779 [info] > git rev-parse --show-toplevel [19ms]
+2024-11-12 18:16:48.797 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-12 18:16:48.799 [info] > git rev-parse --show-toplevel [11ms]
+2024-11-12 18:16:48.799 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-12 18:16:48.799 [info] > git reflog master --grep-reflog=branch: Created from *. [21ms]
+2024-11-12 18:16:48.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-11-12 18:16:48.816 [info] > git status -z -uall [6ms]
+2024-11-12 18:16:48.817 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2024-11-12 18:16:48.817 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-12 18:16:48.817 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-12 18:16:48.819 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-12 18:16:49.001 [info] > git show --textconv :CMakeLists.txt [6ms]
+2024-11-12 18:16:49.003 [info] > git ls-files --stage -- /home/hentai/DEV/Cpp-Project-Setup/bin/project/CMakeLists.txt [3ms]
+2024-11-12 18:16:49.017 [info] > git cat-file -s 4a2f6b44fff989f6cf36704a771a11a37f083fad [2ms]
+2024-11-12 18:16:49.230 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-12 18:17:01.058 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2024-11-12 18:18:06.152 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 18:18:17.529 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 18:18:19.320 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 18:18:26.063 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-12 18:18:48.497 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 18:18:51.514 [info] > git rev-parse --show-toplevel [2ms]

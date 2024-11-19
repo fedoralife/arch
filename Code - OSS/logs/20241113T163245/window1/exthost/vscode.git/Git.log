@@ -1,0 +1,99 @@
+2024-11-13 16:32:50.002 [info] [main] Log level: Info
+2024-11-13 16:32:50.002 [info] [main] Validating found git in: "git"
+2024-11-13 16:32:50.002 [info] [main] Using git "2.47.0" from "git"
+2024-11-13 16:32:50.002 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-13 16:32:50.002 [info] > git rev-parse --show-toplevel [34ms]
+2024-11-13 16:32:50.002 [info] > git rev-parse --git-dir --git-common-dir [25ms]
+2024-11-13 16:32:50.002 [info] [Model][openRepository] Opened repository: /home/hentai/DEV/engine
+2024-11-13 16:32:50.002 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-13 16:32:50.002 [info] > git config --get commit.template [14ms]
+2024-11-13 16:32:50.009 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-13 16:32:50.021 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-11-13 16:32:50.040 [info] > git rev-parse --show-toplevel [33ms]
+2024-11-13 16:32:50.050 [info] > git status -z -uall [19ms]
+2024-11-13 16:32:50.051 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2024-11-13 16:32:50.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2024-11-13 16:32:50.100 [info] > git rev-parse --show-toplevel [51ms]
+2024-11-13 16:32:50.109 [info] > git config --local branch.master.vscode-merge-base [8ms]
+2024-11-13 16:32:50.109 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-13 16:32:50.116 [info] > git config --get commit.template [23ms]
+2024-11-13 16:32:50.117 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-13 16:32:50.123 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-13 16:32:50.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-11-13 16:32:50.140 [info] > git reflog master --grep-reflog=branch: Created from *. [25ms]
+2024-11-13 16:32:50.148 [info] > git status -z -uall [13ms]
+2024-11-13 16:32:50.148 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-11-13 16:32:50.155 [info] > git rev-parse --show-toplevel [27ms]
+2024-11-13 16:32:50.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-11-13 16:32:50.168 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [22ms]
+2024-11-13 16:32:50.168 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-13 16:32:50.168 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-13 16:32:50.171 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-11-13 16:32:50.171 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-13 16:32:50.178 [info] > git rev-parse --show-toplevel [17ms]
+2024-11-13 16:32:50.186 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-13 16:32:50.187 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-13 16:32:50.187 [info] > git reflog master --grep-reflog=branch: Created from *. [10ms]
+2024-11-13 16:32:50.193 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-11-13 16:32:50.193 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-13 16:32:50.193 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-13 16:32:50.302 [info] > git show --textconv :header/win.h [5ms]
+2024-11-13 16:32:50.304 [info] > git ls-files --stage -- /home/hentai/DEV/engine/header/win.h [2ms]
+2024-11-13 16:32:50.309 [info] > git cat-file -s 2eab4c08dc9e7bc672c02f418791c027cc7984d5 [1ms]
+2024-11-13 16:32:50.553 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-13 16:32:51.144 [info] > git show --textconv :src/main.cpp [6ms]
+2024-11-13 16:32:51.145 [info] > git ls-files --stage -- /home/hentai/DEV/engine/src/main.cpp [2ms]
+2024-11-13 16:32:51.151 [info] > git cat-file -s 03ad53cf951114bcef9a93aae1c647b67552f55e [1ms]
+2024-11-13 16:34:26.818 [info] [main] Log level: Info
+2024-11-13 16:34:26.818 [info] [main] Validating found git in: "git"
+2024-11-13 16:34:26.818 [info] [main] Using git "2.47.0" from "git"
+2024-11-13 16:34:26.818 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-13 16:34:26.818 [info] > git rev-parse --show-toplevel [57ms]
+2024-11-13 16:34:26.845 [info] > git rev-parse --show-toplevel [22ms]
+2024-11-13 16:34:26.866 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-13 16:34:26.893 [info] > git rev-parse --show-toplevel [15ms]
+2024-11-13 16:34:26.894 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2024-11-13 16:34:26.923 [info] > git rev-parse --show-toplevel [20ms]
+2024-11-13 16:34:27.428 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-13 16:34:28.654 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-13 16:36:30.856 [info] [main] Log level: Info
+2024-11-13 16:36:30.856 [info] [main] Validating found git in: "git"
+2024-11-13 16:36:30.856 [info] [main] Using git "2.47.0" from "git"
+2024-11-13 16:36:30.856 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-13 16:36:30.856 [info] > git rev-parse --show-toplevel [26ms]
+2024-11-13 16:36:30.911 [info] > git rev-parse --show-toplevel [15ms]
+2024-11-13 16:36:30.925 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-11-13 16:36:30.939 [info] [Model][openRepository] Opened repository: /home/hentai/DEV/Cpp-Project-Setup/script/main/css
+2024-11-13 16:36:30.974 [info] > git rev-parse --show-toplevel [19ms]
+2024-11-13 16:36:30.974 [info] > git config --get commit.template [26ms]
+2024-11-13 16:36:31.000 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2024-11-13 16:36:31.036 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-13 16:36:31.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-11-13 16:36:31.067 [info] > git status -z -uall [13ms]
+2024-11-13 16:36:31.069 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-11-13 16:36:31.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-11-13 16:36:31.098 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-11-13 16:36:31.098 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-13 16:36:31.103 [info] > git config --get commit.template [17ms]
+2024-11-13 16:36:31.109 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-13 16:36:31.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-13 16:36:31.123 [info] > git reflog master --grep-reflog=branch: Created from *. [20ms]
+2024-11-13 16:36:31.129 [info] > git status -z -uall [12ms]
+2024-11-13 16:36:31.129 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-13 16:36:31.138 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [10ms]
+2024-11-13 16:36:31.138 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-13 16:36:31.138 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-13 16:36:31.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-11-13 16:36:31.148 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-11-13 16:36:31.148 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-13 16:36:31.159 [info] > git reflog master --grep-reflog=branch: Created from *. [4ms]
+2024-11-13 16:36:31.166 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-11-13 16:36:31.166 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-13 16:36:31.166 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-13 16:36:31.483 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-13 16:36:31.540 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-13 16:36:34.732 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-13 16:37:01.184 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/hentai/DEV/Cpp-Project-Setup/script/main/css/.git/HEAD'
+2024-11-13 16:37:01.197 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/hentai/DEV/Cpp-Project-Setup/script/main/css/.git/config'
+2024-11-13 16:37:01.217 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/hentai/DEV/Cpp-Project-Setup/script/main/css/.git/HEAD'
+2024-11-13 16:37:01.228 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/hentai/DEV/Cpp-Project-Setup/script/main/css/.git/config'
